@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'OakCRAVAT'
+project = 'OakVar'
 copyright = '2022, Ryangguk Kim'
 author = 'Ryangguk Kim'
 

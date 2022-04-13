@@ -3,6 +3,6 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "oak-cravat"
+name = "oakvar"
 authors = [{name = "Ryangguk Kim", email = "rkim@oakbioinformatics.com"}]
 dynamic = ["version", "description"]

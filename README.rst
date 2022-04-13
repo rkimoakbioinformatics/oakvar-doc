@@ -1,5 +1,5 @@
 #########
-OakCRAVAT
+OakVar
 #########
 
 OakVar is a fork of OpenCRAVAT, further developed by the former lead architect of OpenCRAVAT, Ryangguk Kim.
