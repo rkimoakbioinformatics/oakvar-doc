@@ -4,7 +4,7 @@ OakVar
 
 OakVar is a fork of OpenCRAVAT, further developed by the former lead architect of OpenCRAVAT, Ryangguk Kim.
 
-OakVar is a drop-in replacement of OpenCRAVAT and does not have a breaking change. Same ``oc`` commands work.
+OakVar is a drop-in replacement of OpenCRAVAT and does not have a breaking change. Same ``oc`` commands work. OakVar's own command ``ov`` works just like ``oc`` at this moment.
 
 For what is not explained in this document, please refer to https://open-cravat.readthedocs.org for documentation.
 
