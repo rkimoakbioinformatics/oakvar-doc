@@ -35,7 +35,7 @@ Single-user use
 See the output of ``pip install`` for the location of ``oc`` executable, which should be added to PATH. A system configuration file and system folders will be created in ``~/.oakvar``.
 ::
 
-  >oc module install-base
+  >oc module installbase
 
 Base modules (minimum needed modules) will be installed.
 
@@ -80,7 +80,7 @@ The default system folders (module folders, job folders, etc)  will have been ma
 
 ::
 
-  >oc module install-base
+  >oc module installbase
 
 Base modules (minimum needed modules) will be installed.
 
@@ -98,7 +98,7 @@ Single-user use
 ``oc`` executable will be installed where the user can access. A system configuration file and system folders will be created in ``~/.oakvar``.
 ::
 
-  >oc module install-base
+  >oc module installbase
 
 Base modules (minimum needed modules) will be installed.
 
