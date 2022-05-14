@@ -103,3 +103,134 @@ Single-user use
 Base modules (minimum needed modules) will be installed.
 
 Installation configuration can be examined with ``oc config system``.
+
+************
+CLI Commands
+************
+
+Below are OakVar CLI commands. Use ``-h`` option to know options to each command.
+
+Run an analysis job
+*******
+::
+
+  >ov run input_file ...
+
+Create analysis reports
+******
+::
+
+  >ov report analysis_result_db_file ...
+
+Launch a GUI server
+*******
+::
+
+  >ov gui ...
+
+Manage modules
+*******
+
+=======
+List modules
+=======
+::
+
+  >ov module ls ...
+  
+=======
+Install modules
+=======
+::
+
+  >ov module install ...
+
+=======
+Uninstall modules
+=======
+::
+
+  >ov module uninstall ...
+
+=======
+Install system modules
+=======
+::
+
+  >ov module installbase ...
+
+========
+Update modules
+========
+::
+
+  >ov module update ...
+
+========
+Get information on modules
+========
+::
+
+  >ov module info ...
+
+Manage configuration
+**********
+
+==========
+Manage root module directory
+==========
+::
+
+  >ov config md ...
+
+========
+Show system configuration
+========
+::
+
+  >ov config system
+
+Utilities
+*********
+
+=======
+Create an example input file
+=======
+::
+
+  >ov new exampleinput ...
+
+=======
+Create an annotation module template
+=======
+::
+
+  >ov new annotator ...
+
+=======
+Test modules
+=======
+::
+
+  >ov util test ...
+
+=======
+Merge analysis result database files
+=======
+::
+
+  >ov util mergesqlite ...
+
+=======
+Filter analysis result database files
+=======
+::
+
+  >ov util filtersqlite ...
+
+=========
+Show analysis result database file information
+=========
+::
+
+  >ov util showsqliteinfo ...
