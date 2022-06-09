@@ -68,7 +68,7 @@ A setup file, which is a yaml format file, can be used with ``ov system setup``,
 CLI Commands
 ************
 
-Below are OakVar CLI commands. Use ``-h`` option to know options to each command.
+Below are OakVar CLI commands. Use ``-h`` option to know options to each command. For more details, please refer to https://open-cravat.readthedocs.io until OakVar's own documentation is fully fleshed out.
 
 Set up OakVar
 *******
