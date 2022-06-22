@@ -12,9 +12,17 @@ Installation
 
 1. ``pip uninstall open-cravat`` or ``conda remove open-cravat``: uninstall OpenCRAVAT if already installed.
 
-2. ``pip install oakvar``: install OakVar.
+2. Temporary step to fix PyVCF installation
+::
 
-3. ``ov system setup``: set up OakVar. See ``Setup`` section for details.
+  >pip install "setuptools<58" --upgrade
+  >pip uninstall pyvcf
+  >pip install pyvcf
+  >pip install setuptools --upgrade
+
+3. ``pip install oakvar``: install OakVar.
+
+4. ``ov system setup``: set up OakVar. See ``Setup`` section for details.
 
 ************
 Setup
